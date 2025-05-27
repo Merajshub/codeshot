@@ -47,7 +47,7 @@ useEffect(()=>{
 
         </header>
         <div className={cn('px-4 pb-4',
-            store.darkMode ? "brightness-110": "text-gray-800 saturate-200 contrast-200" 
+            store.darkMode ? "brightness-120": "text-gray-900 saturate-200 contrast-200" 
         )}> 
        <Editor
        value={store.code}
